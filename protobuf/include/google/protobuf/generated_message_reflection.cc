@@ -1,6 +1,6 @@
 // Protocol Buffers - Google's data interchange format
 // Copyright 2008 Google Inc.  All rights reserved.
-// http://code.google.com/p/protobuf/
+// https://developers.google.com/protocol-buffers/
 //
 // Redistribution and use in source and binary forms, with or without
 // modification, are permitted provided that the following conditions are
@@ -1496,7 +1496,7 @@ inline uint32* GeneratedMessageReflection::MutableHasBits(
   return reinterpret_cast<uint32*>(ptr);
 }
 
-inline const uint32 GeneratedMessageReflection::GetOneofCase(
+inline uint32 GeneratedMessageReflection::GetOneofCase(
     const Message& message,
     const OneofDescriptor* oneof_descriptor) const {
   const void* ptr = reinterpret_cast<const uint8*>(&message)
